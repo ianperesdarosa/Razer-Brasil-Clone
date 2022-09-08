@@ -1,0 +1,50 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "RazerF";
+    src: url(font/azonix/Azonix.otf);
+}
+:root{
+    --font1: "RazerF";
+}
+header{
+    background-color: black;
+    height: 60px;
+    
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#logo{
+    width: 35px;
+    height: 35px;
+    display: block;
+}
+#logo-2{
+    margin-top: 5px;
+}
+#logo-2> svg:hover{
+    filter: contrast(100);
+}
+#menu{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    height: 40px;
+}
+#menu > a{
+    color: #888888;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 20px;
+}
+#menu > a:hover{
+    color: white;
+}
