@@ -116,10 +116,11 @@ main{
     padding: 5px;
 }
 section{
+    justify-content: center;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    column-gap: 15px;
+    column-gap: 12px;
 }
 .cont-f{
     margin: auto;
