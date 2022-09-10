@@ -2,7 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    
+    box-sizing: border-box;
 }
 @font-face {
     font-family: "RazerF";
@@ -10,10 +10,6 @@
 }
 :root{
     --font1: "RazerF";
-}
-body{
-    height: auto;
-    width: auto;
 }
 header{
     background-color: black;
@@ -52,22 +48,43 @@ header{
 }
 main{
     background-color: #222;
-}
-.item{
     width: 100%;
     height: 100%;
-    display: block;
+}
+.item{
+    padding-bottom: 15px;
 }
 .back-1{
-    background-color: red;
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/d24672112ff237ece31fd792eb39dba6/basilisk-v3-pro-homepage-desktop.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .back-2{
-    background-color: red;
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/d24672112ff237ece31fd792eb39dba6/razer-deathstalker-pro-tkl-homepage-large.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.back-3{
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/8bb632d5659be24062984f7251e2692b/razer-brand-campaign-2022-homepage-desktop1x.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .cont{
     color: white;
     text-align: center;
-    margin-top: 70px;
+    padding-top: 70px;
 }
 .cont > h1{
     font-family: var(--font1);
@@ -97,6 +114,63 @@ main{
     color: #44d62c;
     display: inline-block;
     padding: 5px;
+}
+section{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 15px;
+}
+.cont-f{
+    margin: auto;
+    max-width: 90%;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+}
+.cont-f > h1{
+    font-family: var(--font1);
+    font-weight: 400;
+    font-size: 2.5rem;
+    padding-bottom: 15px;
+}
+.cont-f > h2{
+    font-family: var(--font1);
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}
+.cont-f > a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 12;
+}
+.cont-f > a:hover{
+    text-decoration: underline;
+}
+.cont-f > a::after{
+    content: " >";
+    color: #44d62c;
+    display: inline-block;
+    padding: 5px;
+}
+.back-4{
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/sneki-snek-s2-homepage-b-desktop.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back-5{
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/razer-stream-controller-b-950x580-desktop.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
