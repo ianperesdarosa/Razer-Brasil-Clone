@@ -1,0 +1,5 @@
+# Razer-Brasil-Clone
+
+Site clonado de https://www.razer.com/br-pt focado totalmente em afins de estudo!
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+!!!("NÃO RESPONSIVO", “SEM USO DE MEDIA QUERY”)!!!
