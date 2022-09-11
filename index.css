@@ -55,7 +55,7 @@ main{
     padding-top: 50px;
 }
 .item{
-    padding-bottom: 15px;
+    padding-bottom: 12px;
 }
 .back-1{
     background-image: url(https://assets2.razerzone.com/images/pnx.assets/d24672112ff237ece31fd792eb39dba6/basilisk-v3-pro-homepage-desktop.jpg);
@@ -207,6 +207,77 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
+footer{
+    background-color: #111111;
+}
+#content-box{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    padding: 20px;
+}
+ul > h1{
+    color: white;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul > li{
+    list-style: none;
+    padding: 8px 0px 8px 0px;
+}
+li > a{
+    color: #999999;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+li > a:hover{
+    color: white;
+    text-decoration: underline;
+}
+#midia > span{
+    color: #44d62c;
+    font-family: var(--font1);
+    font-size: 14.4px;
+    text-align: right;
+    display: block;
+}
+#icon-box{
+    float: right;
+    padding: 8px;
+}
+
+#icon{
+    width: 32px;
+    margin: 5px;
+}
+aside{
+    background-color: #111111;
+}
+#line{
+    background-color: #555;
+    height: 2px;
+    width: 90%;
+    margin: auto;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4.5rem;
+}
+#menu-2{
+    display: block;
+    color: #999999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#menu-2 > a::after{
+    content: "|";
+} 
 
 
 
