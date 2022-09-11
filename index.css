@@ -269,15 +269,71 @@ aside{
     align-items: center;
     margin-left: 4.5rem;
 }
+
 #menu-2{
+    display: flex;
+    align-items: center;
+    color: #999999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+#menu-2 > span{
+    padding-right: 1rem;
     display: block;
     color: #999999;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
-#menu-2 > a::after{
+#menu-2 > ul{
+    list-style: none;
+    padding-left: 1.2rem;
+}
+#menu-2 li {
+    display: inline;
+}
+.list-1::after{
     content: "|";
-} 
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.list-2::after{
+    content: "|";
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+#before{
+    padding-right: 4.5rem;
+    display: block;
+    margin-top: -10px;
+}
+#before > span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#before > span::after{
+    content: "|";
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+#before > a {
+    color: #999999;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#before > a:hover{
+    color: white;
+    text-decoration: underline;
+}
+#before > a::after{
+    content: ">";
+    padding-left: 5px;
+    color: #999999;
+    
+}
 
 
 
